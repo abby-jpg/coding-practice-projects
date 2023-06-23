@@ -1,0 +1,46 @@
+<style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            font-family: "Roboto Mono", monospace;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            border: 0px solid black;
+        }
+        nav {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            border: 0px solid black;
+        }
+        nav a {
+            border: 4px solid black;
+            border-radius: 50%;
+            display: block;
+            margin: 10px;
+            height: 30px;
+            width: 30px;
+        }
+        
+        #page-1,
+        nav a:nth-of-type(1) {
+            background-color:#26de81; 
+        }
+        #page-2,
+        nav a:nth-of-type(2) {
+            background-color: #20bf6b;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        
+    </style>
