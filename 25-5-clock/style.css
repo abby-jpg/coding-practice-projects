@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #023020;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Helevtica', sans-serif;
+  min-height: 100vh;
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  padding: 10px 15px;
+  margin: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: -50px 20px 20px;
+}
+
+.timer-container h2 {
+  margin: 0;
+}
+
+.actions-wrapper span {
+  font-size: 50px;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.clock-container {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+.clock-container h1 {
+  margin: 0.5;
+}
+
+.clock-container span {
+  font-size: 60px;
+}
